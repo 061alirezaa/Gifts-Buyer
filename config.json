@@ -12,5 +12,5 @@
     "upgrade": false,
     "quantity": 5,
     "start": 10,
-    "end": 5000
+    "end": 10
 }
