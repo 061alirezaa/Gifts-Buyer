@@ -11,6 +11,6 @@
     "hide": false,
     "upgrade": false,
     "quantity": 5,
-    "start": 100,
+    "start": 10,
     "end": 5000
 }
