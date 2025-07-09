@@ -122,7 +122,7 @@ else:
 # 👑 Buyer class
 class Buyer:
     # 🌟 Buying def
-        @staticmethod
+    @staticmethod
     async def buy():
         # ⚙️ Settings
         settings = config(conf_file=conf_file)
@@ -178,7 +178,7 @@ class Buyer:
                     con.print(f"[red]Error: {str(e)}")
 
     # ▶️ Run the bott
-    @khooddan
+    @staticmethod
     async def run():
         if setup["token"]:
             await bot.start(bot_token=bot_token)
