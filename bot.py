@@ -89,11 +89,11 @@ def config(conf_file):
                 # Set to true if you want client to update gift
                 "upgrade": False,
                 # Number of gifts you want to buy
-                "quantity": 5,
+                "quantity": 1,
                 # Start price
                 "start": 10,
                 # End price
-                "end": 50000
+                "end": 10
             }
             # Open config file
             with open(file=conf_file, mode='w', encoding='utf-8') as fp:
