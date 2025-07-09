@@ -1,9 +1,9 @@
 {
-    "api_id": "29974664",
+    "api_id": 29974664,
     "api_hash": "dc9c3a515c760bcec7eafb829935ef1d",
     "token": "6605806308:AAFsHdpoLHa9v9exp12J3jN66hjJLccVD6U",
     "session": "",
-    "reciver": "aayco",
+    "reciver": "khooddan",
     "upgradeable": false,
     "limited": false,
     "normal": false,
@@ -12,5 +12,5 @@
     "upgrade": false,
     "quantity": 5,
     "start": 100,
-    "end": 500
+    "end": 5000
 }
