@@ -122,7 +122,7 @@ else:
 # 👑 Buyer class
 class Buyer:
     # 🌟 Buying def
-    @khooddan
+        @staticmethod
     async def buy():
         # ⚙️ Settings
         settings = config(conf_file=conf_file)
