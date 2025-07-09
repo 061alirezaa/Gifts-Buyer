@@ -1,6 +1,5 @@
-""" Coder: Amiru Mohammed """
-""" Telegram: t.me/Aayco """
-""" Github: github.com/Aayco """
+""" Coder: ALIREZA NEISSI """
+""" Telegram: t.me/KHOODDAN """
 """ File: bot.py """
 """ Date: 2025-07-02 20:08:12 """
 
@@ -50,7 +49,7 @@ conf_file = 'config.json'
 
 # 🎥 Banner
 def banner():
-    text = f"[cyan]͡(Auto Gifts Buyer)͡\n[yellow]“Powered by Aayco”"
+    text = f"[cyan]͡(Auto Gifts Buyer)͡\n[yellow]“Powered by QVQVQVQ - KHOODDAN”"
     panel = pn(al.center(text, vertical="middle"), padding=(0, 1), border_style="bright_magenta")
     con.print(panel)
 banner()
@@ -68,15 +67,15 @@ def config(conf_file):
         else:
             conf_data = {
                 # Your account api id
-                "api_id": 6,
+                "api_id": 29974664,
                 # Your account api hash
-                "api_hash": "",
+                "api_hash": "dc9c3a515c760bcec7eafb829935ef1d",
                 # Your bot token (let it null or empty string to use string session)
-                "token": "123456759:AAjehfdhhrhd",
+                "token": "6605806308:AAFsHdpoLHa9v9exp12J3jN66hjJLccVD6U",
                 # Your account string session (let it null or empty string to use bot token)
                 "session" : "",
                 # The reciver username or id (user|channel)
-                "reciver": "aayco",
+                "reciver": "khooddan",
                 # Set to true if you only want upgradeable gifts
                 "upgradeable": False,
                 # Set to true if you only want limited gifts
@@ -92,9 +91,9 @@ def config(conf_file):
                 # Number of gifts you want to buy
                 "quantity": 5,
                 # Start price
-                "start": 100,
+                "start": 10,
                 # End price
-                "end": 500
+                "end": 50000
             }
             # Open config file
             with open(file=conf_file, mode='w', encoding='utf-8') as fp:
@@ -123,7 +122,7 @@ else:
 # 👑 Buyer class
 class Buyer:
     # 🌟 Buying def
-    @staticmethod
+    @khooddan
     async def buy():
         # ⚙️ Settings
         settings = config(conf_file=conf_file)
@@ -179,7 +178,7 @@ class Buyer:
                     con.print(f"[red]Error: {str(e)}")
 
     # ▶️ Run the bott
-    @staticmethod
+    @khooddan
     async def run():
         if setup["token"]:
             await bot.start(bot_token=bot_token)
